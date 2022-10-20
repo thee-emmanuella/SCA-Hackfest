@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #cfc3e9;
+  color: white;
+  padding: 0 5rem;
+}
+
+nav {
+  width: 40%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo img {
+  width: 4rem;
+}
+/* =========================================================================HEADER===============================================================================================================================================================================================================*/
+.flexbox1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #cfc3e9;
+  margin: 2rem 5rem;
+  color: #573e8d;
+  line-height: 1.6rem;
+  border-radius: 1rem;
+}
+
+h2 {
+  text-align: center;
+  padding: 1rem;
+}
+.flex1 {
+  padding: 0 2rem;
+}
+/* =============================================================FLEXBOX1======================================================================== */
+.flexbox2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #cfc3e9;
+  margin: 2rem 5rem;
+  color: #573e8d;
+  line-height: 1.6rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: 4rem;
+}
+.flex2 {
+  padding: 3rem;
+}
+.flex-2 {
+  padding: 3rem;
+}
+
+/* ==========================================================FLEXBOX2=========================================================================== */
+.flexbox3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #cfc3e9;
+  margin: 2rem 5rem;
+  color: #573e8d;
+  line-height: 1.6rem;
+  border-radius: 1rem;
+  padding-top: 2rem;
+  margin-top: 4rem;
+  padding: 6rem;
+}
+/* =======================================================FOOTER============================================================================================== */
+footer {
+  background-color: #573e8d;
+  padding: 5rem;
+}
+/* ===========================================================MEDIA QUERIES======================================================================= */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0 2rem;
+  }
+
+  nav {
+    width: 40%;
+  }
+
+  nav ul {
+    display: none;
+    justify-content: space-around;
+  }
+
+  .logo img {
+    width: 3.5rem;
+  }
+  /* ========================================================================================================================================================== */
+  .flexbox1 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 1rem;
+    margin: 2rem 2rem;
+    line-height: 1.6rem;
+    text-align: center;
+  }
+  .flex1 {
+    padding: 0.5rem;
+  }
+  .flex-1 img {
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  /* =============================================================FLEXBOX1======================================================================== */
+  .flexbox2 {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem;
+    margin: 2rem 2rem;
+    padding: 1rem;
+    margin-top: 4rem;
+    text-align: center;
+  }
+  .flex2 {
+    padding: 0.4rem;
+  }
+  .flex-2 {
+    padding: 0.4rem;
+  }
+
+  /* ==========================================================FLEXBOX2=========================================================================== */
+  .flexbox3 {
+    justify-content: center;
+    padding: 1rem;
+    margin: 2rem;
+    padding-top: 2rem;
+    margin-top: 4rem;
+  }
+}
+/* =============================================================TABLET SCREEN======================================================================== */
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+  header {
+    padding: 0 3rem;
+  }
+
+  nav {
+    width: 40%;
+  }
+
+  nav ul {
+    display: none;
+    justify-content: space-around;
+  }
+
+  .logo img {
+    width: 4rem;
+  }
+
+  /* ====================================================Header=================================================================================================== */
+  .flexbox1 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 1rem;
+    margin: 2rem 2rem;
+    line-height: 1.6rem;
+    text-align: center;
+  }
+  .flex1 {
+    padding: 0.5rem;
+  }
+  .flex-1 img {
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  /* =============================================================FLEXBOX1======================================================================== */
+  .flexbox2 {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem;
+    margin: 2rem 2rem;
+    padding: 1rem;
+    margin-top: 4rem;
+    text-align: center;
+  }
+  .flex2 {
+    padding: 0.4rem;
+  }
+  .flex-2 {
+    padding: 0.4rem;
+  }
+
+  /* ==========================================================FLEXBOX3=========================================================================== */
+  .flexbox3 {
+    justify-content: center;
+    padding: 1rem;
+    margin: 2rem;
+    padding-top: 2rem;
+    margin-top: 4rem;
+  }
+}
