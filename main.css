@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #cfc3e9;
+  color: white;
+  padding: 0 5rem;
+}
+
+nav {
+  width: 40%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo img {
+  width: 4rem;
+}
+/* =================================================================HEADER=========================================================================================== */
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem;
+  background-color: #cfc3e9;
+  margin: 3rem 5rem;
+  border-radius: 1rem;
+}
+
+.flexbox1 h2 {
+  text-align: center;
+}
+.flexbox1 p {
+  text-align: center;
+}
+main img {
+  width: 1.5rem;
+}
+input {
+  border: none;
+  width: 15rem;
+  height: 2rem;
+}
+
+.flexbox2 {
+  background-color: white;
+  padding: 1rem;
+}
+
+#flex {
+  display: flex;
+  align-items: center;
+  line-height: 2rem;
+}
+
+.flexbox2 h2 {
+  padding: 1rem;
+  text-align: center;
+}
+#flex h4 {
+  padding-left: 1rem;
+}
+
+footer {
+  background-color: #573e8d;
+  padding: 5rem;
+}
+
+button {
+  padding: 0.4rem 5rem;
+  border: none;
+  color: white;
+  background-color: #573e8d;
+  margin: 0 auto;
+}
+/* =================================================================MEDIA QUERY============================================================== */
+@media screen and (max-width: 520px) {
+  header {
+    padding: 0 3rem;
+  }
+
+  nav {
+    width: 40%;
+  }
+
+  nav ul {
+    display: none;
+    justify-content: space-around;
+  }
+
+  .logo img {
+    width: 3.5rem;
+  }
+  /* ==================================================================media-body============================================================= */
+  main {
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    margin: 3rem 3rem;
+  }
+  main img {
+    width: 1.2rem;
+  }
+  input {
+    width: 100%;
+  }
+
+  .flexbox2 {
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  .flexbox2 h2 {
+    padding: 1rem;
+    text-align: center;
+  }
+  button {
+    padding: 2% 35%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    color: white;
+    background-color: #573e8d;
+    margin: 0 auto;
+  }
+}
+/* ===========================================================tablet screen================================================================== */
+@media screen and (max-width: 1000px) {
+  header {
+    padding: 0 3rem;
+  }
+
+  nav {
+    width: 40%;
+  }
+
+  nav ul {
+    display: none;
+    justify-content: space-around;
+  }
+
+  .logo img {
+    width: 4rem;
+  }
+  /* =======================================================================header============================================================================== */
+  main {
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    margin: 3rem 3rem;
+  }
+  main img {
+    width: 1.2rem;
+  }
+  input {
+    width: 100%;
+  }
+
+  .flexbox2 {
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  .flexbox2 h2 {
+    padding: 1rem;
+    text-align: center;
+  }
+  button {
+    padding: 2% 35%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    color: white;
+    background-color: #573e8d;
+    margin: 0 auto;
+  }
+}
